@@ -1,0 +1,76 @@
+{
+    "name":"HDR__Table_02_Schema",
+    "title":"Table 02 csv Schema",
+    "description":"A schema for the first exercice",
+    "fields":[
+        {
+            "name":"HID Rank",
+            "title":"Column HDI rank",
+            "type":"integer",
+            "description":"Human Development Index rank"
+        },
+        {
+            "name":"Human dev level",
+            "title":"Column Human dev level",
+            "type":"string",
+            "description":"Human development level",
+            "constraints":{
+                "enum":[
+                    "HIGH","LOW","MEDIUM"
+                ]
+            }
+
+        },
+        {
+            "name":"Country",
+            "title":"column Investiged country name",
+            "type":"string",
+            "description":"Investiged country name"
+
+        },
+        {
+            "name":"1975",
+            "title":"Column Human Development Index rank 1975",
+            "type":"number",
+            "description":"Human Development Index rank in 1975"
+        },
+        {
+            "name":"1980",
+            "title":"Column Human Development Index rank 1980",
+            "type":"number",
+            "description":"Human Development Index rank in 1980"
+
+        },
+        {
+            "name":"1985",
+            "title":"Column Human Development Index rank 1985",
+            "type":"number",
+            "description":"Human Development Index rank in 1985"
+        },
+        {
+            "name":"1990",
+            "title":"Column Human Development Index rank 1990",
+            "type":"number",
+            "description":"Human Development Index rank in 1990"
+        },
+        {
+            "name":"1995",
+            "title":"Column Human Development Index rank 1995",
+            "type":"number",
+            "description":"Human Development Index rank in 1995"
+        },
+        {
+            "name":"2000",
+            "title":"Column Human Development Index rank 2000 ",
+            "type":"number",
+            "description":"Human Development Index rank in 2000"
+        },
+        {
+            "name":"2005",
+            "title":"Column Human Development Index rank 2005",
+            "type":"number",
+            "description":"Human Development Index rank in 2002"
+        }
+    ],
+    "missingsValues":[" "]
+}
