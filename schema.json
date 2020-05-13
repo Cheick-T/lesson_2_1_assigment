@@ -4,13 +4,13 @@
     "description":"A schema for the first exercice",
     "fields":[
         {
-            "name":"HID Rank",
+            "name":"HDI rank",
             "title":"Column HDI rank",
             "type":"integer",
             "description":"Human Development Index rank"
         },
         {
-            "name":"Human dev level",
+            "name":"HDI category",
             "title":"Column Human dev level",
             "type":"string",
             "description":"Human development level",
